@@ -7,7 +7,7 @@ paginate = 10
 disqusShortname = "localhost"
 
 [params]
-  subtitle = "Penang Botanical Gardens plant collection"
+  subtitle = "Penang Botanic Gardens plant collection"
   mainSections = ["plants"]
   disableDisqusTypes = ["page", "section", "home"]
 
