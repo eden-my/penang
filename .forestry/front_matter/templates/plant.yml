@@ -4,43 +4,48 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: family
-  label: family
+  label: Family
 - type: text
   name: species
-  label: species
+  label: Species
 - type: text
   name: genus
-  label: genus
+  label: Genus
 - type: text
   name: sp1
-  label: sp1
+  label: SP 1
 - type: text
   name: author1
-  label: author1
+  label: Author 1
 - type: text
   name: rank1
-  label: rank1
+  label: Rank 1
 - type: text
   name: sp2
-  label: sp2
+  label: SP 2
 - type: text
   name: author2
-  label: author2
+  label: Author 2
 - type: text
   name: vernacular
-  label: vernacular
+  label: Vernacular
 - type: text
   name: ecology
-  label: ecology
+  label: Ecology
 - type: textarea
   name: distribution
-  label: distribution
+  label: Distribution
 - type: text
   name: uses
-  label: uses
+  label: Uses
 - type: datetime
   name: date
-  label: date
+  label: Date
+- name: imagecover
+  type: file
+  config:
+    maxSize: 250
+  label: Cover Image
