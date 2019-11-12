@@ -1,4 +1,4 @@
-baseURL = "http://penang.eden.my/"
+baseURL = "https://penang.eden.my/"
 languageCode = "en-uk"
 title = "Eden"
 theme = "ezhil"
