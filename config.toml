@@ -1,0 +1,27 @@
+baseURL = "http://penang.eden.my/"
+languageCode = "en-uk"
+title = "Eden"
+theme = "ezhil"
+copyright = "© Copyright Inspire My 2019"
+paginate = 10
+disqusShortname = "localhost"
+
+[params]
+  subtitle = "Penang Botanical Gardens plant collection"
+  mainSections = ["plants"]
+  disableDisqusTypes = ["page", "section", "home"]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All plants"
+url = "/plants"
+weight = 2
+
+[outputs]
+  page = ["json", "HTML"]
+  section = ["json", "HTML"]
+  home = ["json", "HTML"]

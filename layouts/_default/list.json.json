@@ -1,0 +1,10 @@
+{{- define "response" -}}
+{
+{{- with .Section -}}"section": "{{ . }}",{{- end -}}
+"count": "{{ len .Data.Pages }}",
+{{- $post_paginator := .Paginate (.Pages) 10 -}}
+"paginatePrev": {{ if $post_paginator.HasPrev }}"{{$post_paginator.Prev.URL}}"{{ else }}null{{ end }},"paginateNext": {{ if $post_paginator.HasNext }}"{{$post_paginator.Next.URL}}"{{ else }}null{{ end }},"items": [
+{{- range $i, $e := $post_paginator.Pages -}}
+{{ if $i }}, {{ end }}{{ .Render "item" }}
+{{- end -}}]}
+{{- end -}}
