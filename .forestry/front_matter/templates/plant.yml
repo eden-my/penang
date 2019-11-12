@@ -34,7 +34,7 @@ fields:
   name: rank1
   label: Rank 1
   config:
-    required: true
+    required: false
 - type: text
   name: sp2
   label: SP 2
