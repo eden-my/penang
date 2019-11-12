@@ -12,7 +12,7 @@ sections:
   templates:
   - plant
 upload_dir: media
-public_path: https://ap-southeast-1.amazonaws.com/eden-penang-box
+public_path: https://box.eden.my
 front_matter_path: "/media"
 use_front_matter_path: true
 file_template: ":year:-:month:-:day:-:filename:"
