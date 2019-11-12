@@ -15,12 +15,8 @@ distribution: Widespread in N.E. India, Bangladesh, S. China, Thailand, Indochin
 uses: The silky fibres from the bark are very strong and used to make cordage and
   fishing nets.
 date: 2019-11-03T09:34:14.000+00:00
-imagecover: "/media/2019-11-12-abroma_augusta,_tambun_03-min.jpg"
-imagegallery:
-- "/media/2019-11-12-abroma_augusta,_tambun_04-min.jpg"
-- "/media/2019-11-12-abroma_augusta,_tambun_01-min.jpg"
-- "/media/2019-11-12-abroma_augusta,_tambun_02-min.jpg"
-- "/media/2019-11-12-abroma_augusta,_tambun_03-min.jpg"
+imagecover: ''
+imagegallery: []
 
 ---
 Shrub to small tree to 10 m tall. Leaf simple, 8-28 cm long, base heart-shaped and tri-nerved. Flowers solitary, pendulous, dark red or purple with whitish base, 1.5-2.5 cm long. Fruits top-shaped with 5 deep ridges, splitting with long irritant hairs along margins, 2.5-3 cm long.
