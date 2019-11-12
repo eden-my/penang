@@ -8,7 +8,7 @@ disqusShortname = "localhost"
 
 [params]
   baseBoxURL = "https://box.eden.my"
-  subtitle = "Penang Botanic Gardens plant collection"
+  subtitle = "Penang Botanic Gardens Plant Collection"
   mainSections = ["plants"]
   disableDisqusTypes = ["page", "section", "home"]
 
