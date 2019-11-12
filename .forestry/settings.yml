@@ -9,6 +9,8 @@ sections:
   label: Plants
   create: all
   match: "**/*"
+  templates:
+  - plant
 upload_dir: media
 public_path: https://ap-southeast-1.amazonaws.com/eden-penang-box
 front_matter_path: "/media"
