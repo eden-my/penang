@@ -1,0 +1,46 @@
+---
+label: Plant
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: family
+  label: family
+- type: text
+  name: species
+  label: species
+- type: text
+  name: genus
+  label: genus
+- type: text
+  name: sp1
+  label: sp1
+- type: text
+  name: author1
+  label: author1
+- type: text
+  name: rank1
+  label: rank1
+- type: text
+  name: sp2
+  label: sp2
+- type: text
+  name: author2
+  label: author2
+- type: text
+  name: vernacular
+  label: vernacular
+- type: text
+  name: ecology
+  label: ecology
+- type: textarea
+  name: distribution
+  label: distribution
+- type: text
+  name: uses
+  label: uses
+- type: datetime
+  name: date
+  label: date
