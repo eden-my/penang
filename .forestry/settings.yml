@@ -11,8 +11,8 @@ sections:
   match: "**/*"
 upload_dir: media
 public_path: https://ap-southeast-1.amazonaws.com/eden-penang-box
-front_matter_path: ''
-use_front_matter_path: 
+front_matter_path: "/media"
+use_front_matter_path: true
 file_template: ":year::month::day:-:filename:"
 build:
   preview_env:
