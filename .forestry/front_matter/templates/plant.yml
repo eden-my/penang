@@ -8,21 +8,33 @@ fields:
 - type: text
   name: family
   label: Family
+  config:
+    required: true
 - type: text
   name: species
   label: Species
+  config:
+    required: true
 - type: text
   name: genus
   label: Genus
+  config:
+    required: true
 - type: text
   name: sp1
   label: SP 1
+  config:
+    required: true
 - type: text
   name: author1
   label: Author 1
+  config:
+    required: true
 - type: text
   name: rank1
   label: Rank 1
+  config:
+    required: true
 - type: text
   name: sp2
   label: SP 2
