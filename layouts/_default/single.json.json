@@ -1,15 +1,7 @@
-{{- define "response" -}}
-{
-"title": "{{ .Title }}",
-"family":"{{ .Params.family }}",
-"species":"{{ .Params.species }}",
-"genus":"{{ .Params.genus }}",
-"sp1":"{{ .Params.sp1 }}",
-"author1":"{{ .Params.author1 }}",
-"rank1":{{ if .Params.rank1 }}"{{ .Params.rank1 }}"{{ else }}null{{ end }},
-"sp2":{{ if .Params.sp2 }}"{{ .Params.sp2 }}"{{ else }}null{{ end }},
-"author2":{{ if .Params.author2 }}"{{ .Params.author2 }}"{{ else }}null{{ end }},
-"permalink":"{{ .Permalink }}",
-"image":{{ if .Params.image }}"{{ .Params.image }}"{{ else }}null{{ end }},
-"content":{{ .Content | jsonify }}}
+{{- define "response" -}}{"title": "{{ .Title }}","family":"{{ .Params.family }}","species":"{{ .Params.species }}","genus":"{{ .Params.genus }}","sp1":"{{ .Params.sp1 }}","author1":"{{ .Params.author1 }}","rank1":{{ if .Params.rank1 }}"{{ .Params.rank1 }}"{{ else }}null{{ end }},"sp2":{{ if .Params.sp2 }}"{{ .Params.sp2 }}"{{ else }}null{{ end }},"author2":{{ if .Params.author2 }}"{{ .Params.author2 }}"{{ else }}null{{ end }},"permalink":"{{ .Permalink }}","imagecover":{{ if .Params.imagecover }}"{{ (print .Site.Params.baseBoxURL .Params.imagecover) | safeURL }}"{{ else }}null{{ end }},"imagegallery": [
+{{- $boxURL := .Site.Params.baseBoxURL -}}
+{{- range $idx, $img := .Params.imagegallery -}}
+{{- $imgURL := print $boxURL $img -}}
+{{- if gt $idx 0 -}},{{- end -}}"{{ $imgURL | safeURL }}"{{- end -}}
+],"content":{{ .Content | jsonify }}}
 {{- end -}}
