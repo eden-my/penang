@@ -44,13 +44,13 @@ fields:
 - type: text
   name: vernacular
   label: Vernacular
-- type: text
+- type: textarea
   name: ecology
   label: Ecology
 - type: textarea
   name: distribution
   label: Distribution
-- type: text
+- type: textarea
   name: uses
   label: Uses
 - type: datetime
