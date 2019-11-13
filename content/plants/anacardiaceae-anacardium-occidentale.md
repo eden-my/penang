@@ -16,6 +16,9 @@ uses: Fruits are edible, although not much consumed. The nuts are widely harvest
   and eaten.
 date: 2019-11-13T09:35:09.077+00:00
 imagecover: "/media/2019-11-13-Anacardium occidentale, Ambang (12).JPG"
+imagegallery:
+- "/media/2019-11-13-Anacardium occidentale, Ambang (19).JPG"
+- "/media/2019-11-13-Anacardium occidentale, Tioman Island.JPG"
 
 ---
 Evergreen tree to 12 m tall with low spreading crown and stout crooked trunk. Leaves 7-18 cm long, obovate with blunt to rounded apex. Flowers c. 1.2 cm across, greenish tinged pink with red stripes. Fruits c. 3 cm long, kidney shaped seated on swollen fleshy yellow or red stalk (hypocarp).
