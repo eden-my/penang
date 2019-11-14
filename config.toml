@@ -6,11 +6,21 @@ copyright = "© Copyright Inspire My 2019"
 paginate = 10
 disqusShortname = "localhost"
 
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
 [params]
-  baseBoxURL = "https://box.eden.my"
-  subtitle = "Penang Botanic Gardens Plant Collection"
-  mainSections = ["plants"]
-  disableDisqusTypes = ["page", "section", "home"]
+baseBoxURL = "https://box.eden.my"
+subtitle = "Penang Botanic Gardens Plant Collection"
+mainSections = ["plants"]
+disableDisqusTypes = ["page", "section", "home"]
+
+[params.algolia]
+vars = ["family", "species", "genus", "sp1", "author1", "rank1", "sp2", "author2", "vernacular", "ecology", "distribution", "uses"]
+params = []
 
 [[menu.main]]
 name = "Home"
@@ -23,6 +33,6 @@ url = "/plants"
 weight = 2
 
 [outputs]
-  page = ["json", "HTML"]
-  section = ["json", "HTML"]
-  home = ["json", "HTML"]
+page = ["HTML", "json"]
+section = ["HTML", "json"]
+home = ["HTML", "Algolia", "json"]
