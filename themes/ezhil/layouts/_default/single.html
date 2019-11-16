@@ -19,17 +19,23 @@
       <hr />
       <h3>Description</h3>
       {{ .Content }}
+      {{- if .Params.ecology -}}
       <hr />
       <h3>Ecology</h3>
       {{ .Params.ecology }}
+      {{- end -}}
+      {{- if .Params.distribution -}}
       <hr />
       <h3>Distribution</h3>
       {{ .Params.distribution }}
+      {{- end -}}
+      {{- if .Params.uses -}}
       <hr />
       <h3>Uses</h3>
       {{ .Params.uses }}
+      {{- end -}}
     </div>
-    {{ if .Params.imagegallery }}
+    {{- if .Params.imagegallery -}}
     <hr />
     <div class="post-gallery">
       <h3>Gallery</h3>
@@ -43,7 +49,7 @@
       {{- end -}}
       </div>
     </div>
-    {{ end }}
+    {{- end -}}
 		<div class="post-tags">
 			{{ if ne .Type "page" }}
 				{{ if gt .Params.tags 0 }}
